@@ -9,7 +9,15 @@ public class PlayByteArrayInputStream {
 
         String message = "This is a test message";
         byte[] testByteArray = message.getBytes();
+//        this implementation of InputStream is for reading from an in-memory ByteArray
 
+// can reset
+//        can mark
+//        can limit
+//        can set size
+
+//        to control what is read
+        
         ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(testByteArray);
         byte[] buffer = new byte[3];
         int number = 0;

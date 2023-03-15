@@ -1,7 +1,9 @@
 package org.example;
 
+import org.example.play.PlayBufferedInputStream;
 import org.example.play.PlayByteArrayInputStream;
 import org.example.play.PlayFileInputStream;
+import org.example.play.PlayFileReaderWriter;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,7 +23,11 @@ public class App
 {
     public static void main( String[] args ) throws URISyntaxException, IOException {
 //        PlayFileInputStream.testStreams();
-        PlayByteArrayInputStream.testStreams();
+//        PlayByteArrayInputStream.testStreams();
+//        PlayBufferedInputStream.testBufferedFileInputStream();
+        PlayFileReaderWriter.testFileReaderWriter();
     }
+
+
 
 }
